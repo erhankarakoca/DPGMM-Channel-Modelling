@@ -32,3 +32,7 @@ THz channels as much as the EM algorithm and its flexibility
 allows it to represent more complex distributions better than the
 EM algorithm. Furthermore, it is also can be used to characterize
 any type of wireless channel.
+
+## Dataset 
+Dataset used in this study can be found in : \
+ http://ieee-dataport.org/open-access/thz-wireless-channel-measurements-between-240ghz-and-300ghz
