@@ -3,33 +3,8 @@ This is a DPGMM python code related to the following article: \
 Erhan Karakoca, Güneş Karabulut Kurt, Ali Görçin, ***"Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels"***. \
 arXiv : https://arxiv.org/abs/2205.03812
 ## Abstract
-To meet the demand for higher data capacity,
-there is growing interest in frequencies that allow for a larger
-bandwidth. One of the frequency band being investigated to
-meet this future communication system requirements is the
-Terahertz (THz) frequencies, which has yet to be allocated.
-However, extended measurement campaigns and comprehensive
-propagation channel modeling are essential to understand the
-THz spectrum and to develop reliable communication systems
-in this band. In this direction, we suggest the utilization of the
-hierarchical Dirichlet Process Gamma Mixture Model (DPGMM)
-to characterize THz channels statistically in the absence of any
-prior knowledge. This DPGMM allows inferring both mixture
-component parameters and the required number of components
-as well. We also present the expectation-maximization (EM)
-algorithm for Gamma mixture model (GMM). To measure the
-difference between these models and the experimental probability
-density functions (PDFs), Kullback-Leibler Divergence (KL-
-divergence) is used. We employ these methods on sub-THz band
-measurements frequencies between 240 GHz and 300 GHz which
-are published online. Thus, by comparing DPGMM and EM
-algorithm results in measurement datasets, we illustrate how
-well the DPGMM fits the target distribution. It is shown that
-the proposed DPGMM can accurately describe the various sub-
-THz channels as much as the EM algorithm and its flexibility
-allows it to represent more complex distributions better than the
-EM algorithm. Furthermore, it is also can be used to characterize
-any type of wireless channel.
+
+Due to the unique channel characteristics of Terahertz (THz), comprehensive propagation channel modeling is essential to understand the spectrum and to develop reliable communication systems in these bands. Ray tracing and traditional statistical modeling are insufficient to construct a suitable channel model due to the wide bandwidth and rapid changes in the characteristics of THz channels. In this work, we propose the utilization of hierarchical Dirichlet Process Gamma Mixture Model (DPGMM) to characterize THz channels statistically in the absence of any prior knowledge. DPGMM provides mixture component parameters and the required number of components. A revised expectation-maximization (EM) algorithm is also proposed as a pre-step for DPGMM. Kullback-Leibler Divergence (KL-divergence) is utilized as an error metric to examine the amount of inaccuracy of the EM algorithm and DPGMM when modeling the experimental probability density functions (PDFs). DPGMM and EM algorithm are implemented over the measurements taken at frequencies between 240 GHz and 300 GHz. By comparing the results of the DPGMM and EM algorithms for the measurement datasets, we demonstrate how well the DPGMM fits the target distribution. It is shown that the proposed DPGMM can accurately describe the various THz channels as good as the EM algorithm, and its flexibility allows it to represent more complex distributions better than the EM algorithm. We also demonstrated that DPGMM can be used to model any wireless channel due to its versatility. 
 
 ## Dataset 
 Dataset used in this study can be found in : \
