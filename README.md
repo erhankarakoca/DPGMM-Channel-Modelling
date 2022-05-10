@@ -1,6 +1,6 @@
 # Dirichlet Process Gamma Mixture Model For Channel Modelling
 This is a DPGMM python code related to the following article: \
-Erhan Karakoca, Güneş Karabulut Kurt, Ali Görçin, ***"Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels"***. 
+Erhan Karakoca, Güneş Karabulut Kurt, Ali Görçin, ***"Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels"***. \
 arXiv : https://arxiv.org/abs/2205.03812
 ## Abstract
 To meet the demand for higher data capacity,
