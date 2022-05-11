@@ -9,3 +9,12 @@ Due to the unique channel characteristics of Terahertz (THz), comprehensive prop
 ## Dataset 
 Dataset used in this study can be found in : \
  http://ieee-dataport.org/open-access/thz-wireless-channel-measurements-between-240ghz-and-300ghz
+ 
+You can cite this work as :
+
+@article{Karakoca2022HierarchicalDP,
+  title={Hierarchical {D}irichlet Process Based {G}amma Mixture Modelling for Terahertz Band Wireless Communication Channels},
+  author={Karakoca, Erhan and Karabulut Kurt, G\"une\c{s} and G\"orçin, Ali},
+  journal={arXiv preprint arXiv:2205.03812},
+  year={2022}
+}
