@@ -12,9 +12,9 @@ Dataset used in this study can be found in : \
  
 You can cite this work as :
 
-@article{Karakoca2022HierarchicalDP,
-  title={Hierarchical {D}irichlet Process Based {G}amma Mixture Modelling for Terahertz Band Wireless Communication Channels},
-  author={Karakoca, Erhan and Karabulut Kurt, G\"une\c{s} and G\"orçin, Ali},
-  journal={arXiv preprint arXiv:2205.03812},
-  year={2022}
+@article{Karakoca2022HierarchicalDP, \
+  title={Hierarchical {D}irichlet Process Based {G}amma Mixture Modelling for Terahertz Band Wireless Communication Channels}, \
+  author={Karakoca, Erhan and Karabulut Kurt, G\"une\c{s} and G\"orçin, Ali}, \
+  journal={arXiv preprint arXiv:2205.03812}, \
+  year={2022} \
 }
