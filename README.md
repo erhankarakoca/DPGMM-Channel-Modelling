@@ -10,7 +10,7 @@ Due to the unique channel characteristics of Terahertz (THz), comprehensive prop
 Dataset used in this study can be found in : \
  http://ieee-dataport.org/open-access/thz-wireless-channel-measurements-between-240ghz-and-300ghz
  
- If you find our study and code helpful you can cite this work as :
+ If you find our study and code helpful for your work you can cite as :
 
 @article{karakoca2022hierarchical, \
   title={Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels}, \
