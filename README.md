@@ -19,3 +19,13 @@ Dataset used in this study can be found in : \
   journal={arXiv preprint arXiv:2205.03812}, \
   year={2022} \
 }
+
+@ARTICLE{9852427,
+  author={Karakoca, Erhan and Karabulut Kurt, Güneş and Görçi̇n, Ali̇}, \
+  journal={IEEE Access}, \
+  title={Hierarchical Dirichlet Process Based Gamma Mixture Modeling for Terahertz Band Wireless Communication Channels}, \
+  year={2022}, \
+  volume={10}, \
+  number={},  \
+  pages={84635-84647}, \
+  doi={10.1109/ACCESS.2022.3197603}}
