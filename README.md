@@ -13,13 +13,6 @@ Dataset used in this study can be found in : \
  
  If you find our study and code helpful for your work you can cite as :
 
-@article{karakoca2022hierarchical, \
-  title={Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels}, \
-  author={Karakoca, Erhan and Kurt, G{\"u}ne{\c{s}} Karabulut and G{\"o}r{\c{c}}in, Ali}, \
-  journal={arXiv preprint arXiv:2205.03812}, \
-  year={2022} \
-}
-
 @ARTICLE{9852427,
   author={Karakoca, Erhan and Karabulut Kurt, Güneş and Görçi̇n, Ali̇}, \
   journal={IEEE Access}, \
