@@ -1,24 +1,42 @@
-# Dirichlet Process Gamma Mixture Model For Channel Modelling
-This is a DPGMM python code related to the following article: \
-Erhan Karakoca, Güneş Karabulut Kurt, Ali Görçin, ***"Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels"***. \
-arXiv : https://arxiv.org/abs/2205.03812 \
-IEEE Explore : https://ieeexplore.ieee.org/document/9852427
+# Dirichlet Process Gamma Mixture Model for Channel Modelling
+
+This repository contains the **DPGMM Python code** related to the following research article:
+
+**Erhan Karakoca, Güneş Karabulut Kurt, Ali Görçin.**  
+*"Hierarchical Dirichlet Process Based Gamma Mixture Modelling for Terahertz Band Wireless Communication Channels."*  
+- [arXiv:2205.03812](https://arxiv.org/abs/2205.03812)  
+- [IEEE Xplore](https://ieeexplore.ieee.org/document/9852427)  
+
+---
+
 ## Abstract
 
-Due to the unique channel characteristics of Terahertz (THz), comprehensive propagation channel modeling is essential to understand the spectrum and to develop reliable communication systems in these bands. Ray tracing and traditional statistical modeling are insufficient to construct a suitable channel model due to the wide bandwidth and rapid changes in the characteristics of THz channels. In this work, we propose the utilization of hierarchical Dirichlet Process Gamma Mixture Model (DPGMM) to characterize THz channels statistically in the absence of any prior knowledge. DPGMM provides mixture component parameters and the required number of components. A revised expectation-maximization (EM) algorithm is also proposed as a pre-step for DPGMM. Kullback-Leibler Divergence (KL-divergence) is utilized as an error metric to examine the amount of inaccuracy of the EM algorithm and DPGMM when modeling the experimental probability density functions (PDFs). DPGMM and EM algorithm are implemented over the measurements taken at frequencies between 240 GHz and 300 GHz. By comparing the results of the DPGMM and EM algorithms for the measurement datasets, we demonstrate how well the DPGMM fits the target distribution. It is shown that the proposed DPGMM can accurately describe the various THz channels as good as the EM algorithm, and its flexibility allows it to represent more complex distributions better than the EM algorithm. We also demonstrated that DPGMM can be used to model any wireless channel due to its versatility. 
+Terahertz (THz) communication channels exhibit unique characteristics that demand thorough modeling to support reliable systems at these frequencies. Traditional statistical models and ray-tracing methods are often insufficient due to the wide bandwidth and dynamic channel behaviors at THz frequencies.
 
-## Dataset 
-Dataset used in this study can be found in : \
- http://ieee-dataport.org/open-access/thz-wireless-channel-measurements-between-240ghz-and-300ghz
- 
- If you find our study and code helpful for your work you can cite as :
+In this study, we introduce a **Hierarchical Dirichlet Process Gamma Mixture Model (DPGMM)** to statistically characterize THz channels without relying on prior knowledge. DPGMM automatically identifies the required number of components and estimates the parameters for each mixture. We propose an enhanced **Expectation-Maximization (EM) algorithm** as a preparatory step for DPGMM.
 
+The **Kullback-Leibler Divergence (KL-Divergence)** metric is used to measure the accuracy of both the EM algorithm and DPGMM in modeling experimental probability density functions (PDFs). We apply these methods to datasets collected from measurements in the **240 GHz to 300 GHz** range. Our results demonstrate that DPGMM not only performs comparably to the EM algorithm but also offers greater flexibility to represent complex distributions, making it a versatile tool for various wireless channels.
+
+---
+
+## Dataset
+
+The dataset used in this research is available at:  
+[IEEE DataPort - THz Wireless Channel Measurements (240-300 GHz)](http://ieee-dataport.org/open-access/thz-wireless-channel-measurements-between-240ghz-and-300ghz)
+
+---
+
+## Citation
+
+If you find this code or research helpful, please cite our work as follows:
+
+```bibtex
 @ARTICLE{9852427,
-  author={Karakoca, Erhan and Karabulut Kurt, Güneş and Görçi̇n, Ali̇}, \
-  journal={IEEE Access}, \
-  title={Hierarchical Dirichlet Process Based Gamma Mixture Modeling for Terahertz Band Wireless Communication Channels}, \
-  year={2022}, \
-  volume={10}, \
-  number={},  \
-  pages={84635-84647}, \
-  doi={10.1109/ACCESS.2022.3197603}}
+  author={Karakoca, Erhan and Karabulut Kurt, Güneş and Görçin, Ali},
+  journal={IEEE Access}, 
+  title={Hierarchical Dirichlet Process Based Gamma Mixture Modeling for Terahertz Band Wireless Communication Channels}, 
+  year={2022}, 
+  volume={10}, 
+  pages={84635-84647}, 
+  doi={10.1109/ACCESS.2022.3197603}
+}
